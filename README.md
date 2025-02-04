@@ -38,7 +38,7 @@ This project is built on **Eliza** where it integrates with APIs like **BirdEye*
 ## Setup & Installation
 
 ### **Requirements:**
-- Install **Rust**.
+- Install **node, npm & pnpm**.
 - Setup a **Supabase Database**.
 - Create the following tables:
   - **pumpfundata**: Stores purchase details.
@@ -49,9 +49,8 @@ This project is built on **Eliza** where it integrates with APIs like **BirdEye*
 
 1. Clone the repository:
    ```bash
-   git clone -b pumpfun https://github.com/DCUBE-LLC/StoicAI/tree/pumpfun
+   git clone https://github.com/elizaOS/eliza.git
    cd <repo-folder>
-   git checkout pumpfun
    ```
 2. Set up environment variables in the `.env` file:
    ```env
@@ -71,7 +70,8 @@ This project is built on **Eliza** where it integrates with APIs like **BirdEye*
    ```
 3. Run the project using Cargo:
    ```bash
-   cargo run
+   pnpm build
+   pnpm start  --characters="path/to/your/character.json"
    ```
 
 ---
