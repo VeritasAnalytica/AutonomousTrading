@@ -1,9 +1,9 @@
-# Stoic Pumpfun Trading Agent
+# Trading Agent
 
 ## Description
-The **Stoic Pumpfun Trading Agent** is an automated trading bot designed for autonomous trading on Solana-based tokens. It evaluates token data, filters opportunities based on predefined trading criteria, and uses AI for final trade decisions. The bot executes trades and posts real-time updates on Twitter, sharing details about purchases and sales, including profit margins.
+The **Trading Agent** is an automated trading bot designed for autonomous trading on Solana-based tokens. It evaluates token data, filters opportunities based on predefined trading criteria, and uses AI for final trade decisions. The bot executes trades and posts real-time updates on Twitter, sharing details about purchases and sales, including profit margins.
 
-This project integrates with APIs like **BirdEye** and **Helius** to gather live token rates and utilizes **Eliza** for AI-driven trade decision-making. 
+This project is built on **Eliza** where it integrates with APIs like **BirdEye** and **Helius** to gather live token rates and utilizes **OpenAI** for AI-driven trade decision-making. 
 
 ---
 
